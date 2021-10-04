@@ -12,12 +12,11 @@ header{
   font-weight:bold;
   text-align: center;
   height: 30vh;
-  border-radius: 5vh;
   background-image: url(https://cdn.glitch.com/b8be9af3-ed38-4b0e-8435-74c6f577d123%2FPrototype-van-Engelbarts-computermuis-SRI-International-cc-e1449647702620.jpg?v=1632406230912);
   background-position: center;
   background-repeat: no-repeat;
-  border-radius:15px;
   padding: 20px;
+  margin: 20px;
 }
 
 body {
@@ -27,6 +26,7 @@ body {
 }
 
 nav {
+  display: flex;
   border-radius: 5vh;
   background-color: #00ADB5;
   display:flex;
@@ -54,7 +54,7 @@ a {
 
 a:hover {
   font-size: bold;
-  color: #00ADB5;
+  color: #222831;
 }
 
 h2 {
@@ -72,4 +72,20 @@ img {
 footer {
   font-style: italic;
   color: #EEEEE;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  nav {
+    display: block;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: #222831;
+  }
 }
