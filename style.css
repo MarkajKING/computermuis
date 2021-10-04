@@ -29,7 +29,7 @@ nav {
   display: flex;
   border-radius: 5vh;
   background-color: #00ADB5;
-  display:flex;
+  text-align:center;
 }
 
 nav div {
@@ -76,12 +76,24 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: l#222831;
   }
   
   nav {
     display: block;
+    padding: 10px;
+    margin 10px;
   }
+  
+  section {
+    max-width: 80%;
+  }
+  
+  div img {
+    width: 80%;
+    height: 80%;
+  }
+  
 }
 
 @media (prefers-color-scheme: dark){
