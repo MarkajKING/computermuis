@@ -1,1 +1,75 @@
+{
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+header{
+  font-size:2em;
+  font-weight:bold;
+  text-align: center;
+  height: 30vh;
+  border-radius: 5vh;
+  background-image: url(https://cdn.glitch.com/b8be9af3-ed38-4b0e-8435-74c6f577d123%2FPrototype-van-Engelbarts-computermuis-SRI-International-cc-e1449647702620.jpg?v=1632406230912);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius:15px;
+  padding: 20px;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  background-color: #222831;
+}
+
+nav {
+  border-radius: 5vh;
+  background-color: #00ADB5;
+  display:flex;
+}
+
+nav div {
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+section {
+  border-radius: 5vh;
+  background-color: #393E46;
+  padding: 10px;
+  margin: 10px auto;
+  color: #EEEEEE;
+  font-size: 1.1em;
+  max-width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+a:hover {
+  font-size: bold;
+  color: #00ADB5;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vh;
+  size: 30vw;
+}
+
+footer {
+  font-style: italic;
+  color: #EEEEE;
+}
